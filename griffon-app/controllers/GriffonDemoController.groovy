@@ -4,7 +4,7 @@ class GriffonDemoController {
     def view
 
     void mvcGroupInit(Map args) {
-        // this method is called after model and view are injected. It's also been modified!
+        // this method is called after model and view are injected
     }
 
     /*
