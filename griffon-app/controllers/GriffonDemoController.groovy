@@ -1,3 +1,5 @@
+import java.awt.BorderLayout
+
 class GriffonDemoController {
     // these will be injected by Griffon
     def model
@@ -7,8 +9,9 @@ class GriffonDemoController {
         // this method is called after model and view are injected
     }
 
-    /*
-    def action = { evt = null ->
+    def switchLayout = { evt = null ->
+      println "hit the method call with $evt"
+        model.layout = new BorderLayout()
+       view.mainPanel.setLayout(model.layout)
     }
-    */
 }
