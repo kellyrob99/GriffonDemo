@@ -1,5 +1,3 @@
-import java.awt.BorderLayout
-
 class GriffonDemoController {
     // these will be injected by Griffon
     def model
@@ -9,9 +7,22 @@ class GriffonDemoController {
         // this method is called after model and view are injected
     }
 
-    def switchLayout = { evt = null ->
-      println "hit the method call with $evt"
-        model.layout = new BorderLayout()
-       view.mainPanel.setLayout(model.layout)
+
+    def launchTrident = {evt = null ->
+         createNewTab ('TridentDemo', 'TridentDemo'+System.currentTimeMillis())
+    }
+
+    def launchBinding = {evt = null ->
+        createNewTab('BindingDemo', 'BindingDemo'+System.currentTimeMillis())
+    }
+
+    def launchEdt = {evt = null ->
+        createNewTab('EDTDemo', 'EDTDemo'+System.currentTimeMillis())        
+    }
+    
+    private void createNewTab(mvcGroupName, mvcId)
+    {
+            createMVCGroup(mvcGroupName, mvcId,
+                    [tabGroup: view.tabGroup, mvcId: mvcId])
     }
 }

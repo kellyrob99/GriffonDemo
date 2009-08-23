@@ -7,3 +7,6 @@ root {
         view = '*'
     }
 }
+root.'griffon.builder.trident.TridentBuilder'.view = '*'
+
+root.'griffon.builder.gfx.GfxBuilder'.view = '*'
