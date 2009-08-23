@@ -7,7 +7,7 @@ tabbedPane(tabGroup) {
     panel(title: "EDT Demo") {
         borderLayout()
         scrollPane(constraints: CENTER) {
-            textArea(id: "editor", text: bind {model.text})
+            textArea(id: "editor", text: bind {model.text}, editable:false)
         }
         hbox(constraints: SOUTH) {
             button(updateAction)

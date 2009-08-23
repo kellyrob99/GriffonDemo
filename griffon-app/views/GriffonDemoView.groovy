@@ -1,5 +1,3 @@
-import javax.swing.JTabbedPane
-
 actions {
     action(id: "launchDemo1",
             name: "Graphics and Animation",
@@ -8,7 +6,7 @@ actions {
             name: "Binding",
             closure: controller.launchBinding)
     action(id: "launchDemo3",
-            name: "Launch",
+            name: "EDT",
             closure: controller.launchEdt)
 }
 
@@ -20,7 +18,6 @@ myapp = application(title: 'GriffonDemo',
                 imageIcon('/griffon-icon-32x32.png').image,
                 imageIcon('/griffon-icon-16x16.png').image]
 ) {
-
     menuBar {
         menu("Demo") {
             menuItem(launchDemo1)
