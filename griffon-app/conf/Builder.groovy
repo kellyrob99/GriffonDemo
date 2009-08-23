@@ -10,3 +10,10 @@ root {
 root.'griffon.builder.trident.TridentBuilder'.view = '*'
 
 root.'griffon.builder.gfx.GfxBuilder'.view = '*'
+
+jx {
+    'groovy.swing.SwingXBuilder' {
+        controller = ['Threading']
+        view = '*'
+    }
+}
