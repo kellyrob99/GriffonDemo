@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/griffon-app/resources" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/integration" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/test/unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test/fest" isTestSource="true" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />
@@ -256,6 +257,42 @@
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="GriffonDemo-griffonPlugins" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/krobinson6/dotgriffon/0.2-SNAPSHOT/projects/GriffonDemo/plugins/fest-0.2.1/lib/test/fest-swing-testng-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/krobinson6/dotgriffon/0.2-SNAPSHOT/projects/GriffonDemo/plugins/fest-0.2.1/lib/test/fest-swing-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/krobinson6/dotgriffon/0.2-SNAPSHOT/projects/GriffonDemo/plugins/fest-0.2.1/lib/test/fest-util-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/krobinson6/dotgriffon/0.2-SNAPSHOT/projects/GriffonDemo/plugins/fest-0.2.1/lib/test/testng-5.7-jdk15.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
 

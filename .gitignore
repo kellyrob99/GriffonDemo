@@ -35,3 +35,67 @@ installer/linux/lib/griffon-rt-0.1.2.jar
 installer/linux/lib/groovy-all-1.6.3.jar
 installer/mac/GriffonDemo
 installer/mac/GriffonDemo.icns
+test/reports/jdepend-report.html
+test/reports/jdepend-report.txt
+test/reports/jdepend-report.xml
+test/cobertura/BindingDemoController.html
+test/cobertura/BindingDemoModel.html
+test/cobertura/BindingDemoView.html
+test/cobertura/CodenarcGriffonPlugin.html
+test/cobertura/EDTDemoController.html
+test/cobertura/EDTDemoModel.html
+test/cobertura/EDTDemoView.html
+test/cobertura/FestGriffonPlugin.html
+test/cobertura/GfxBuilderGriffonPlugin.html
+test/cobertura/GriffonDemoController.html
+test/cobertura/GriffonDemoModel.html
+test/cobertura/GriffonDemoView.html
+test/cobertura/Initialize.html
+test/cobertura/JdependGriffonPlugin.html
+test/cobertura/TridentBuilderGriffonPlugin.html
+test/cobertura/TridentDemoController.html
+test/cobertura/TridentDemoModel.html
+test/cobertura/TridentDemoView.html
+test/cobertura/css/help.css
+test/cobertura/css/main.css
+test/cobertura/css/sortabletable.css
+test/cobertura/css/source-viewer.css
+test/cobertura/css/tooltip.css
+test/cobertura/frame-packages.html
+test/cobertura/frame-sourcefiles-.html
+test/cobertura/frame-sourcefiles.html
+test/cobertura/frame-summary-.html
+test/cobertura/frame-summary.html
+test/cobertura/help.html
+test/cobertura/images/blank.png
+test/cobertura/images/downsimple.png
+test/cobertura/images/upsimple.png
+test/cobertura/index.html
+test/cobertura/js/customsorttypes.js
+test/cobertura/js/popup.js
+test/cobertura/js/sortabletable.js
+test/cobertura/js/stringbuilder.js
+test/fest-reports/GriffonDemo suite/Ant test.html
+test/fest-reports/GriffonDemo suite/Ant test.properties
+test/fest-reports/GriffonDemo suite/Ant test.xml
+test/fest-reports/GriffonDemo suite/classes.html
+test/fest-reports/GriffonDemo suite/groups.html
+test/fest-reports/GriffonDemo suite/index.html
+test/fest-reports/GriffonDemo suite/main.html
+test/fest-reports/GriffonDemo suite/methods-alphabetical.html
+test/fest-reports/GriffonDemo suite/methods-not-run.html
+test/fest-reports/GriffonDemo suite/methods.html
+test/fest-reports/GriffonDemo suite/reporter-output.html
+test/fest-reports/GriffonDemo suite/testng.xml.html
+test/fest-reports/GriffonDemo suite/toc.html
+test/fest-reports/emailable-report.html
+test/fest-reports/index.html
+test/fest-reports/testng-results.xml
+test/fest-reports/testng.css
+staging/asm-2.2.3.jar
+staging/gfxbuilder-core-0.2.jar
+staging/griffon-rt-0.2-SNAPSHOT.jar
+staging/jsilhouette-geom-0.3.1.jar
+staging/trident-1.0.jar
+staging/tridentbuilder-0.1.jar
+cobertura.ser

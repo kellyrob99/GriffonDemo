@@ -7,21 +7,21 @@ class GriffonDemoController {
         // this method is called after model and view are injected
     }
 
-
     def launchTrident = {evt = null ->
-         createNewTab ('TridentDemo', 'TridentDemo'+System.currentTimeMillis())
+         createNewTab ('TridentDemo')
     }
 
     def launchBinding = {evt = null ->
-        createNewTab('BindingDemo', 'BindingDemo'+System.currentTimeMillis())
+        createNewTab('BindingDemo')
     }
 
     def launchEdt = {evt = null ->
-        createNewTab('EDTDemo', 'EDTDemo'+System.currentTimeMillis())        
+        createNewTab('EDTDemo')
     }
     
-    private void createNewTab(mvcGroupName, mvcId)
+    private void createNewTab(mvcGroupName)
     {
+        String mvcId = mvcGroupName + System.currentTimeMillis()
             createMVCGroup(mvcGroupName, mvcId,
                     [tabGroup: view.tabGroup, mvcId: mvcId])
     }
