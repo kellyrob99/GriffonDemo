@@ -4,12 +4,15 @@ class EDTDemoController {
     def view
 
     def url = 'http://www.dzone.com/links/feed/frontpage/rss.xml'
+    def completionMessage = 'Update Complete'
 
     void mvcGroupInit(Map args) {
         // this method is called after model and view are injected
     }
 
-
+    /**
+     * Load the Dzone RSS Feed off of the EDT, update on the EDT and update progress.
+     */
     def updateText = {evt = null ->
         jxwithWorker(start: true) {
             onInit {
@@ -20,21 +23,23 @@ class EDTDemoController {
                 }
             }
             work {
-                def feedText = new URL(url).text
-                def file = new File('/tmp/tempFeedFile.xml')
-                file << feedText
-                int max = file.size()
-                def buffer = new char[max / 10]
-                def text = new StringBuffer()
-                file.withReader {reader ->
-                    (1..10).each {i ->
-                        reader.read(buffer, 0, buffer.size())
-                        text.append(buffer)
-                        Thread.sleep(300)
-                        publish(i * 10)
+                //parse the feed
+                def feed = new XmlSlurper().parse(url).declareNamespace(dc: 'http://purl.org/dc/elements/1.1/',
+                        dz: 'http://www.developerzone.com/modules/dz/1.0')
+
+                //reference used to calculate progress
+                def count = feed.channel.item.size()
+
+                feed.channel.item.eachWithIndex {item, index ->
+                    //add to the list on the EDT
+                    edt {
+                        model.items << [title: item.title.text(), categories: item.category.list().collect {it.text()}.join(','),
+                                creator: item.'dc:creator'.text(), clickcount: item.'dz:clickCount'.text(), commentcount: item.'dz:commentCount'.text()]
                     }
+                    //Thread.sleep(200)
+                    publish(((index / count) * 100) as int)
                 }
-                text.toString()
+                completionMessage    
             }
             onUpdate {chunks ->
                 view.progress.string = chunks[0] + " %"
