@@ -261,10 +261,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
   </component>
-  <component name="XPathView.XPathProjectComponent">
-    <history />
-    <find-history />
-  </component>
   <UsedPathMacros>
     <macro name="GRIFFON_HOME" />
   </UsedPathMacros>

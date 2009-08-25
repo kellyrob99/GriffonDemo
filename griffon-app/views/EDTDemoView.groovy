@@ -3,12 +3,12 @@ import ca.odell.glazedlists.gui.*
 import ca.odell.glazedlists.swing.*
 
 def createTableModel() {
-    def columnNames = ["Title", "Categories", "Creator", "ClickCount", "CommentCount"]
+    //def columnNames = ["Title", "Categories", "Creator", "ClickCount", "CommentCount"]
     new EventTableModel(model.items, [
-            getColumnCount: {columnNames.size()},
-            getColumnName: {index -> columnNames[index]},
+            getColumnCount: {model.columnNames.size()},
+            getColumnName: {index -> model.columnNames[index]},
             getColumnValue: {object, index ->
-                object."${columnNames[index].toLowerCase()}"
+                object."${model.columnNames[index].toLowerCase()}"
             }] as TableFormat)
 }
 

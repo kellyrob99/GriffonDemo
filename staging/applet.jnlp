@@ -2,7 +2,7 @@
 <!DOCTYPE jnlp SYSTEM "http://java.sun.com/dtd/JNLP-1.5.dtd">
 <jnlp
     version="0.1"
-    codebase="file:/Users/krobinson6/Documents/griffon/GriffonDemo/staging"
+    codebase="file:/Users/krobinson6/Documents/griffon/GriffonDemo/staging/"
     href="applet.jnlp"
 >
     <information>
@@ -38,15 +38,26 @@
         <property name="jnlp.packEnabled" value="true"/>
         <j2se version="1.5+" />
         <!-- auto-added jars follow, griffon-rt, app, and groovy -->
-        <jar href='griffon-rt-0.1.1.jar'/>
-        <jar href='griffon-rt-0.1.2.jar'/>
+        <jar href='griffon-rt-0.2-SNAPSHOT.jar'/>
+        <jar href='asm-2.2.3.jar'/>
+        <jar href='Filters.jar'/>
+        <jar href='gfxbuilder-core-0.2.jar'/>
+        <jar href='glazedlists-1.8.0_java15.jar'/>
         <jar href='GriffonDemo.jar'/>
         <jar href='groovy-all-1.6.3.jar'/>
+        <jar href='jsilhouette-geom-0.3.1.jar'/>
+        <jar href='MultipleGradientPaint.jar'/>
+        <jar href='swing-worker-1.1.jar'/>
+        <jar href='swingx-0.9.3.jar'/>
+        <jar href='swingxbuilder-0.1.6.jar'/>
+        <jar href='timingframework-1.0.jar'/>
+        <jar href='trident-1.0.jar'/>
+        <jar href='tridentbuilder-0.1.jar'/>
         <!-- Add all extra jars below here, or the app may break -->
 
     </resources>
   <applet-desc
-      documentbase="file:/Users/krobinson6/Documents/griffon/GriffonDemo/staging"
+      documentbase="file:/Users/krobinson6/Documents/griffon/GriffonDemo/staging/"
       name="GriffonDemoApplet"
       main-class="griffon.applet.GriffonApplet"
       width="320"

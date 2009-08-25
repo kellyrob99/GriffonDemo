@@ -4,7 +4,9 @@ import ca.odell.glazedlists.SortedList
 import ca.odell.glazedlists.BasicEventList
 
 class EDTDemoModel {
-   @Bindable String text
+    def columnNames = ["Title", "Categories", "Creator", "ClickCount", "CommentCount"]
 
-   EventList items = new SortedList( new BasicEventList(), null)
+    @Bindable String text
+
+    EventList items = new SortedList(new BasicEventList(), null)
 }

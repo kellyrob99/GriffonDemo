@@ -4,19 +4,19 @@
     <list default="true" readonly="true" id="edd555ae-eff6-4294-bd99-d35ec923534c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staging/GriffonDemo.jar" afterPath="$PROJECT_DIR$/staging/GriffonDemo.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GriffonDemo.iws" afterPath="$PROJECT_DIR$/GriffonDemo.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/controllers/EDTDemoController.groovy" afterPath="$PROJECT_DIR$/griffon-app/controllers/EDTDemoController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/models/EDTDemoModel.groovy" afterPath="$PROJECT_DIR$/griffon-app/models/EDTDemoModel.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/views/EDTDemoView.groovy" afterPath="$PROJECT_DIR$/griffon-app/views/EDTDemoView.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/conf/Builder.groovy" afterPath="$PROJECT_DIR$/griffon-app/conf/Builder.groovy" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/staging/griffon-rt-0.1.1.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staging/application.jnlp" afterPath="$PROJECT_DIR$/staging/application.jnlp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staging/applet.html" afterPath="$PROJECT_DIR$/staging/applet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GriffonDemo.ipr" afterPath="$PROJECT_DIR$/GriffonDemo.ipr" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/staging/griffon-rt-0.1.2.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staging/applet.jnlp" afterPath="$PROJECT_DIR$/staging/applet.jnlp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
     </list>
-    <ignored path="GriffonDemo.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="config" />
+    <ignored path="GriffonDemo.iws" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
@@ -134,10 +134,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="EDTDemoView.groovy" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="EDTDemoView.groovy" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/griffon-app/views/EDTDemoView.groovy">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="44" selection-start="523" selection-end="523" vertical-scroll-proportion="0.17928287">
+                <state line="10" column="32" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="EDTDemoModel.groovy" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/griffon-app/models/EDTDemoModel.groovy">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="26" selection-start="284" selection-end="284" vertical-scroll-proportion="0.1509434">
                   <folding />
                 </state>
               </provider>
@@ -147,37 +156,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="LinkedHashMap.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/src.jar!/src/java/util/LinkedHashMap.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="298" column="57" selection-start="12324" selection-end="12329" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="EDTDemoController.groovy" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="EDTDemoController.groovy" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/griffon-app/controllers/EDTDemoController.groovy">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="32" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Builder.groovy" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/griffon-app/conf/Builder.groovy">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="34" selection-start="349" selection-end="349" vertical-scroll-proportion="0.17595308">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="HashMap.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/src.jar!/src/java/util/HashMap.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="673" column="17" selection-start="24182" selection-end="24182" vertical-scroll-proportion="0.0">
+                <state line="6" column="46" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0106870225">
                   <folding />
                 </state>
               </provider>
@@ -195,12 +177,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/griffon-app/models/GriffonDemoModel.groovy" />
         <option value="$PROJECT_DIR$/griffon-app/lifecycle/Initialize.groovy" />
         <option value="$PROJECT_DIR$/griffon-app/lifecycle/Startup.groovy" />
         <option value="$PROJECT_DIR$/griffon-app/models/BindingDemoModel.groovy" />
         <option value="$PROJECT_DIR$/griffon-app/controllers/BindingDemoController.groovy" />
-        <option value="$PROJECT_DIR$/griffon-app/models/EDTDemoModel.groovy" />
         <option value="$PROJECT_DIR$/GriffonDemo-griffonPlugins.iml" />
         <option value="$PROJECT_DIR$/griffon-app/views/TridentDemoView.groovy" />
         <option value="$PROJECT_DIR$/griffon-app/models/TridentDemoModel.groovy" />
@@ -208,9 +188,11 @@
         <option value="$PROJECT_DIR$/griffon-app/views/GriffonDemoView.groovy" />
         <option value="$PROJECT_DIR$/griffon-app/views/BindingDemoView.groovy" />
         <option value="$PROJECT_DIR$/test/fest/BindingDemoTest.groovy" />
+        <option value="$PROJECT_DIR$/griffon-app/conf/Builder.groovy" />
+        <option value="$PROJECT_DIR$/test/integration/RSSFeedSample.xml" />
         <option value="$PROJECT_DIR$/griffon-app/views/EDTDemoView.groovy" />
         <option value="$PROJECT_DIR$/griffon-app/controllers/EDTDemoController.groovy" />
-        <option value="$PROJECT_DIR$/griffon-app/conf/Builder.groovy" />
+        <option value="$PROJECT_DIR$/griffon-app/models/EDTDemoModel.groovy" />
       </list>
     </option>
   </component>
@@ -252,9 +234,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Favorites" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -262,40 +243,6 @@
               <option name="myItemId" value="GriffonDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GriffonDemo-griffonPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Griffon:lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="installer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GriffonDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GriffonDemo-griffonPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -318,68 +265,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="GriffonDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GriffonDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GriffonDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GriffonDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GriffonDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GriffonDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GriffonDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GriffonDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GriffonDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GriffonDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="griffon-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -419,12 +304,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -443,10 +329,10 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="options.lastSelected" value="com.intellij.openapi.vcs.configurable.VcsManagerConfigurable$4" />
+    <property name="options.lastSelected" value="preferences.updates" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
   </component>
-  <component name="RunManager" selected="Griffon Application.GriffonDemoDebug">
+  <component name="RunManager">
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -505,7 +391,7 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG" enabled="false" merge="false">
+    <configuration default="true" type="TestNG" factoryName="TestNG" enabled="false" merge="false" runner="emma">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -641,33 +527,39 @@
       <list>
         <task id="Default" summary="Default task">
           <option name="active" value="true" />
-          <option name="updated" value="1251048244832" />
+          <option name="changeLists">
+            <list>
+              <ChangeListInfo id="edd555ae-eff6-4294-bd99-d35ec923534c" name="Default" comment="" />
+            </list>
+          </option>
+          <option name="created" value="1251169134318" />
+          <option name="updated" value="1251168733385" />
         </task>
       </list>
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1920" height="1174" extended-state="0" />
+    <frame x="3" y="22" width="1920" height="1174" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977018" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959914" sideWeight="0.6650809" order="0" side_tool="false" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959914" sideWeight="0.6641294" order="0" side_tool="false" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282588" sideWeight="0.5" order="1" side_tool="false" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20571429" sideWeight="0.5" order="10" side_tool="false" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959914" sideWeight="0.22074215" order="1" side_tool="true" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921028" sideWeight="0.5" order="8" side_tool="false" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
-      <window_info id="Griffon" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870123" sideWeight="0.6650809" order="2" side_tool="false" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921028" sideWeight="0.5" order="9" side_tool="false" />
+      <window_info id="Griffon" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15339391" sideWeight="0.4376784" order="2" side_tool="false" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32921028" sideWeight="0.5" order="9" side_tool="false" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884902" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910313" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921028" sideWeight="0.5" order="8" side_tool="false" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20571429" sideWeight="0.5" order="10" side_tool="false" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959914" sideWeight="0.6641294" order="2" side_tool="false" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" />
@@ -683,7 +575,7 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit of all resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating EDT demo to parse a feed into a glazed list" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -698,123 +590,116 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Reversing previous test comment" />
     <MESSAGE value="initial commit of all resources" />
+    <MESSAGE value="updating EDT demo to parse a feed into a glazed list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GriffonDemo-griffonPlugins.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="30" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/griffon-app/controllers/GriffonDemoController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="64" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/griffon-app/views/TridentDemoView.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1642" selection-end="1642" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/griffon-app/models/TridentDemoModel.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="19" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/griffon-app/views/GriffonDemoView.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="18" selection-start="720" selection-end="724" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/src.jar!/src/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="673" column="17" selection-start="24182" selection-end="24182" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fest/BindingDemoTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="68" selection-start="693" selection-end="693" vertical-scroll-proportion="0.26979473">
-          <folding />
-        </state>
+        <state line="21" column="18" selection-start="720" selection-end="724" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/griffon-app/views/BindingDemoView.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="50" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0">
+        <state line="21" column="50" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/src.jar!/src/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="298" column="57" selection-start="12324" selection-end="12329" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/src.jar!/src/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="673" column="17" selection-start="24182" selection-end="24182" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$GRIFFON_HOME$/lib/swingxbuilder-0.1.6-SNAPSHOT.jar!/groovy/swing/SwingXBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/src.jar!/src/javax/swing/JEditorPane.java">
+    <entry file="file://$PROJECT_DIR$/griffon-app/conf/webstart/application.jnlp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/src.jar!/src/javax/swing/JTextPane.java">
+    <entry file="file://$PROJECT_DIR$/griffon-app/conf/webstart/applet.jnlp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="42" selection-start="2223" selection-end="2234" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/griffon-app/models/BindingDemoModel.groovy">
+    <entry file="file://$PROJECT_DIR$/griffon-app/conf/webstart/applet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="36" selection-end="36" vertical-scroll-proportion="0.023904383">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/integration/GriffonDemoTests.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="9" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/griffon-app/conf/webstart/griffon-icon-128x128.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/src.jar!/src/java/util/LinkedHashMap.java">
+    <entry file="jar://$GRIFFON_HOME$/lib/groovy-all-1.6.3.jar!/groovy/util/XmlSlurper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="298" column="57" selection-start="12324" selection-end="12329" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/griffon-app/views/EDTDemoView.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="44" selection-start="523" selection-end="523" vertical-scroll-proportion="0.17928287">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/griffon-app/controllers/EDTDemoController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="32" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
+        <state line="5" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/griffon-app/conf/Builder.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="34" selection-start="349" selection-end="349" vertical-scroll-proportion="0.17595308">
+        <state line="19" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="0.2228739">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/RSSFeedSample.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="400" selection-start="407" selection-end="439" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/griffon-app/controllers/EDTDemoController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="46" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0106870225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/griffon-app/views/EDTDemoView.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="32" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/griffon-app/models/EDTDemoModel.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="26" selection-start="284" selection-end="284" vertical-scroll-proportion="0.1509434">
           <folding />
         </state>
       </provider>
