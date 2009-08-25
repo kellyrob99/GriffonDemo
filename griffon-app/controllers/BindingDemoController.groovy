@@ -7,8 +7,10 @@ class BindingDemoController {
         // this method is called after model and view are injected
     }
 
+    /**
+     * Update the text on a UI component using dsl for SwingUtilities
+     */
     def updateText = { evt = null ->
-        println "calling updateText"
         doOutside{
             def myNewText = model.text
             doLater{

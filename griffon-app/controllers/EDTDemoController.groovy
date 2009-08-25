@@ -11,7 +11,7 @@ class EDTDemoController {
     }
 
     /**
-     * Load the Dzone RSS Feed off of the EDT, update on the EDT and update progress.
+     * Load the Dzone RSS Feed off of the EDT, update on the EDT and update progress using SwingWorker
      */
     def updateText = {evt = null ->
         jxwithWorker(start: true) {

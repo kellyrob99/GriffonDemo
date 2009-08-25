@@ -3,6 +3,5 @@ import java.awt.LayoutManager
 import javax.swing.JPanel
 
 class GriffonDemoModel {
-    @Bindable String propName
 
 }
