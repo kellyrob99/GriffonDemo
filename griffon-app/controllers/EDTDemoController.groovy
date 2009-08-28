@@ -14,6 +14,11 @@ class EDTDemoController {
      * Load the Dzone RSS Feed off of the EDT, update on the EDT and update progress using SwingWorker
      */
     def updateText = {evt = null ->
+        //remove any previous results
+        edt {
+            model.items.clear()
+        }
+
         jxwithWorker(start: true) {
             onInit {
                 view.progress.with {
@@ -33,13 +38,17 @@ class EDTDemoController {
                 feed.channel.item.eachWithIndex {item, index ->
                     //add to the list on the EDT
                     edt {
-                        model.items << [title: item.title.text(), categories: item.category.list().collect {it.text()}.join(','),
-                                creator: item.'dc:creator'.text(), clickcount: item.'dz:clickCount'.text(), commentcount: item.'dz:commentCount'.text()]
+                        model.items <<
+                                [title: item.title.text(),
+                                        categories: item.category.list().collect {it.text()}.join(', '),
+                                        creator: item.'dc:creator'.text(),
+                                        clickcount: item.'dz:clickCount'.text(),
+                                        commentcount: item.'dz:commentCount'.text()]
                     }
                     //Thread.sleep(200)
                     publish(((index / count) * 100) as int)
                 }
-                completionMessage    
+                completionMessage
             }
             onUpdate {chunks ->
                 view.progress.string = chunks[0] + " %"
